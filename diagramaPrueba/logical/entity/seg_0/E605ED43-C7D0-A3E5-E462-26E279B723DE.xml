@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E605ED43-C7D0-A3E5-E462-26E279B723DE" name="Curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:10:42 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCurso" id="23C2D482-9FDE-7BB2-F8BC-DB134399684B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:10:50 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreCurso" id="33CE9139-5C0F-7B48-4BC4-9321270D3186">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:25:35 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30C44D1B-F057-405C-8C80-7C4CE77035A2" name="Curso PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:11:44 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23C2D482-9FDE-7BB2-F8BC-DB134399684B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

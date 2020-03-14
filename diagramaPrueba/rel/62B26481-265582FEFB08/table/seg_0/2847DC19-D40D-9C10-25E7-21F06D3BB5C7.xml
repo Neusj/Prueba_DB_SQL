@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2847DC19-D40D-9C10-25E7-21F06D3BB5C7" name="EvaluacionAlumno">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Test_IdTest" id="E316E936-3495-DD0F-74FD-C5F2F83CE629">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B11CA36F-E4C6-4C21-B34B-555E8FD6BB54" referredColumn="08BEC4F4-E727-11BB-E44B-810C495B0EFA"/>
+</associations>
+</Column>
+<Column name="Alumno_IdAlumno" id="70966BCF-9195-89E0-9324-30C89552419D">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36CAF17A-80E0-BCEF-BF1D-14A29BF6EB9F" referredColumn="B9331A5F-C795-6EBC-CAFC-8C9A78265D58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C45BBEC-5F06-228C-9387-559A86428E96" name="EvaluacionAlumno_PK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E316E936-3495-DD0F-74FD-C5F2F83CE629"/>
+<colUsage columnID="70966BCF-9195-89E0-9324-30C89552419D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02CF9D55-1218-FEE2-4245-1FEC25C41062" name="EvaluacionAlumno_Test_FK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>18B41A0B-E83F-88CA-FA69-3D258D182FAD</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E316E936-3495-DD0F-74FD-C5F2F83CE629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="498DC7BB-B939-DB06-8160-E5835BC6CD5D" name="EvaluacionAlumno_Alumno_FK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>18B41A0B-E83F-88CA-FA69-3D258D182FAD</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70966BCF-9195-89E0-9324-30C89552419D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

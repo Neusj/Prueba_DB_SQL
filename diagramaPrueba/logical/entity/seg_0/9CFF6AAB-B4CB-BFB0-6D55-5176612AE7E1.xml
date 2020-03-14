@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CFF6AAB-B4CB-BFB0-6D55-5176612AE7E1" name="Alternativa">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:39 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAlternativa" id="7AF73E5A-28A4-1F9E-F1BA-BD4242E07B75">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:55 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescripcionAlternativa" id="A69B49E3-11A4-0538-DE14-88CF35AACF3A">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:55 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EsCorrectaAlternativa" id="BE127915-732C-E8AF-2E2F-25705BD66D6E">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:55 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcentajeResultado" id="E689BC55-078D-7174-96C2-25DCE3E83265">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:55 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPregunta" id="CFC256D0-FB91-256D-C5CA-B673F8D3EC1E">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:45:43 UTC</createdTime>
+<generatorID>47D772C2-9B10-0EC0-F776-231664E367F7</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="true"/>
+</engineerTo>
+<referedAttribute>3691F593-6DB0-3348-3CF3-6912E35102F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7DF5812-5DBC-9FAC-EE6E-BB0AA5EF9A7E" name="Alternativa PK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:35:59 UTC</createdTime>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B26481-2A96-FE7D-0E81-265582FEFB08" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AF73E5A-28A4-1F9E-F1BA-BD4242E07B75</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

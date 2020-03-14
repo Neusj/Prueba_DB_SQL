@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6EA1B64-4CAE-2D72-17BA-75DE9D510113" name="Pregunta">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>DE4B1456-E414-57B4-43E7-7E9519AE4BAB</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPregunta" id="44AF2378-2954-9DBA-23C1-58AA160E7F33">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>3691F593-6DB0-3348-3CF3-6912E35102F0</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnunciadoPregunta" id="8E18524E-6B03-2A5E-21D0-775DCCC2DAFA">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>1E86BC09-8E80-5702-2BA2-A3890F127D03</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PuntajePregunta" id="AA485181-2A40-5B89-BE7B-A6405632F9F7">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>19BAC759-054F-CF86-7961-C2D8248246FC</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Test_IdTest" id="5A01047A-C0BC-51FD-1163-F80BDC581B12">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>B8033A3E-7BCD-3B60-85C7-E8CBD10693B6</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="320E9805-DD51-C3E0-4051-D793488ACAC9" referredColumn="08BEC4F4-E727-11BB-E44B-810C495B0EFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72723CF2-8705-2DFC-622A-B71151CBA6FA" name="Pregunta_PK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>5CB3DE2C-9B9E-B9CD-5DB7-2628DF7DF076</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44AF2378-2954-9DBA-23C1-58AA160E7F33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E7BA05D-6F75-9BA1-04F5-E060B1065B35" name="Pregunta_Test_FK">
+<createdBy>Javier Neus</createdBy>
+<createdTime>2020-03-13 04:56:33 UTC</createdTime>
+<generatorID>2DAE5F74-370A-2BB3-0BE4-D887873C51B1</generatorID>
+<ownerDesignName>diagramaPrueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A01047A-C0BC-51FD-1163-F80BDC581B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
